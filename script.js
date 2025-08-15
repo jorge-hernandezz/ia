@@ -459,7 +459,7 @@ class DockerAIChatInterface {
         // Crear AbortController para poder cancelar la request
         this.currentStreamController = new AbortController();
 
-        const response = await fetch(`http://localhost:12434/engines/v1/chat/completions`, {
+        const response = await fetch(`https://82hvb369-12434.usw3.devtunnels.ms/engines/v1/chat/completions`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
