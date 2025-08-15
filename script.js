@@ -2,7 +2,7 @@ class DockerAIChatInterface {
     constructor() {
         this.conversations = this.loadConversations();
         this.currentConversationId = null;
-        this.apiEndpoint = 'http://localhost:12434';
+        this.apiEndpoint = 'https://82hvb369-12434.usw3.devtunnels.ms';
         this.selectedModel = 'ai/gemma3';
         this.isGenerating = false;
         this.currentStreamController = null;
